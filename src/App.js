@@ -11,7 +11,18 @@ function App() {
       <div className="content">
         <p>
           Passou no <strong>vestibular</strong> e não tem onde ficar ? o <strong>Spot</strong> te mostra!
-    </p>
+        </p>
+
+        <form>
+          <label htmlFor="E-MAIL *">
+            <input
+              type="email"
+              id="email"
+              placeholder="seu@email.com.br" />
+            <button type="submit">Entrar</button>
+          </label>
+        </form>
+
       </div>
     </div>
   );
