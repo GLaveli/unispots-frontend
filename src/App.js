@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import logo from './assets/logo.svg'
+import logo from './assets/spot text logo.png'
 
 function App() {
   return (
     <div className="container">
-      <img src={logo} className="spotLogo" />
+      <img src={logo} className="spotLogo" alt="Spot logo" />
 
       <div className="content">
         <p>
@@ -14,13 +14,12 @@ function App() {
         </p>
 
         <form>
-          <label htmlFor="E-MAIL *">
-            <input
-              type="email"
-              id="email"
-              placeholder="seu@email.com.br" />
-            <button type="submit">Entrar</button>
-          </label>
+          <label htmlFor="email">E-mail *</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="seu@email.com.br" />
+          <button className="btn" type="submit">Entrar</button>
         </form>
 
       </div>
