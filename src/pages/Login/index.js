@@ -21,7 +21,7 @@ export default function Login({ history }) {
         <>
 
             <p>
-                Passou no <strong>vestibular</strong> e não tem onde ficar ? o <strong>Spot</strong> te mostra!
+                Passou no <strong>vestibular</strong> e não tem onde ficar? o <strong>Spot</strong> te mostra!
             </p>
 
             <form onSubmit={handleSubmit}>

@@ -69,7 +69,7 @@ button {
 
 .content form label span {
   font-weight: normal;
-  color: #999;
+  color: rgb(240, 142, 142);
   font-size: 10px;
 }
 
@@ -94,7 +94,23 @@ button {
   color: #fff;
   cursor: pointer;
 }
-
 .content button.btn:hover {
   background: #67286e;
+}
+.content button.btnReg {
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #3aa09b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content button.btnReg:hover {
+  background: #286e6a;
 }

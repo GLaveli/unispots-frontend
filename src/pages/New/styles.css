@@ -72,19 +72,28 @@ select {
 
 label#thumbnail {
     margin-bottom: 20px;
-    border: 1px dashed #ddd;
+    border: 2px dashed #8B3694;
     background-size: cover;
     cursor: pointer;
-    height: 160px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 label#thumbnail input {
     display: none;
 }
 
 label#thumbnail img {
-    width: 100%;
+    width: 70px;
+}
+
+label#thumbnail.hasThumbnail {
+    border: 0;
+}
+
+label#thumbnail.hasThumbnail img {
+    display: none;
 }
