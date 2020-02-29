@@ -1,57 +1,57 @@
-.containerDash {
-    margin: 60px auto 0;
-    max-width: 750px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.containerLogin {
+  margin: 60px auto 0;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
-.contentDash {
+.contentLogin {
     width: 100%;
     background: #fff;
     margin-top: 5px;
     border-radius: 4px;
     padding: 30px;
     color: #8B3694;
-}
-
-.contentDash>p {
+  }
+  
+  .contentLogin>p {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 30px;
     text-align: center;
-}
-
-.contentDash form {
+  }
+  
+  .contentLogin form {
     display: flex;
     flex-direction: column;
-}
-
-.contentDash form label {
+  }
+  
+  .contentLogin form label {
     font-size: 14px;
     color: #444;
     font-weight: bold;
     margin-bottom: 8px;
-}
-
-.contentDash form label span {
+  }
+  
+  .contentLogin form label span {
     font-weight: normal;
     color: rgb(240, 142, 142);
     font-size: 10px;
-}
-
-.contentDash form input {
+  }
+  
+  .contentLogin form input {
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 2px;
     height: 45px;
     padding: 0 15px;
     font-size: 16px;
-}
-
-.contentDash button.btn {
+  }
+  
+  .contentLogin button.btn {
     border: 0;
     border-radius: 2px;
     width: 100%;
@@ -62,13 +62,11 @@
     background: #8B3694;
     color: #fff;
     cursor: pointer;
-}
-
-.contentDash button.btn:hover {
+  }
+  .contentLogin button.btn:hover {
     background: #67286e;
-}
-
-.contentDash button.btnReg {
+  }
+  .contentLogin button.btnReg {
     border: 0;
     border-radius: 2px;
     width: 100%;
@@ -80,32 +78,8 @@
     background: #3aa09b;
     color: #fff;
     cursor: pointer;
-}
-
-.contentDash button.btnReg:hover {
+  }
+  
+  .contentLogin button.btnReg:hover {
     background: #286e6a;
-}
-
-/*--------------------------------------------------------*/
-
-
-.contentDash ul.spot-list {
-    width: 100%;
-    list-style: none;
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-gap: 20px;
-    margin-bottom: 30px;
-}
-
-.contentDash ul.spot-list li {
-    display: flex;
-    flex-direction: column;
-}
-
-.contentDash ul.spot-list li header {
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    border-radius: 4px;
-}
+  }

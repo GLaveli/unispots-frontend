@@ -1,3 +1,97 @@
+.containerNew {
+    margin: 60px auto 0;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.contentNew {
+    width: 100%;
+    background: #fff;
+    margin-top: 5px;
+    border-radius: 4px;
+    padding: 30px;
+    color: #8B3694;
+}
+
+.contentNew>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contentNew form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentNew form label {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contentNew form label span {
+    font-weight: normal;
+    color: rgb(240, 142, 142);
+    font-size: 10px;
+}
+
+.contentNew form input {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.contentNew button.btn {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #8B3694;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contentNew button.btn:hover {
+    background: #67286e;
+}
+
+.contentNew button.btnReg {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #3aa09b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contentNew button.btnReg:hover {
+    background: #286e6a;
+}
+
+
+
+
+/*----------------------------------*/
+
+
 .centerSelect {
     text-align: center;
     text-align-last: center;

@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import api from '../../services/api'
+import Logo from '../../components/LogoComponent';
+
+import './styles.css';
 
 export default function Login({ history }) {
 
@@ -19,22 +22,29 @@ export default function Login({ history }) {
 
     return (
         <>
+            <div className="containerLogin">
+                <Logo />
+                <div className="contentLogin">
+                    <p>
+                        Passou no
+                        <strong>vestibular</strong>
+                        e não tem onde ficar? <br /> o
+                         <strong>Spot</strong> te mostra!
+                    </p>
 
-            <p>
-                Passou no <strong>vestibular</strong> e não tem onde ficar? o <strong>Spot</strong> te mostra!
-            </p>
-
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="email">E-mail *</label>
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="seu@email.com.br"
-                    value={email}
-                    onChange={event => setEmail(event.target.value)}
-                />
-                <button className="btn" type="submit">Entrar</button>
-            </form>
+                    <form onSubmit={handleSubmit}>
+                        <label htmlFor="email">E-mail *</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="seu@email.com.br"
+                            value={email}
+                            onChange={event => setEmail(event.target.value)}
+                        />
+                        <button className="btn" type="submit">Entrar</button>
+                    </form>
+                </div>
+            </div>
         </>
     )
 }
